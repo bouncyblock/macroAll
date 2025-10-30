@@ -1,4 +1,6 @@
 (fp_lib_table
   (version 7)
   (lib (name "OPL")(type "KiCad")(uri "${KIPRJMOD}/OPL_Kicad_Library-master/OPL_Kicad_Library-master/Seeed Studio XIAO Series Library")(options "")(descr ""))
+  (lib (name "modifiedOPL")(type "KiCad")(uri "${KIPRJMOD}/mito-simplified-main/mito-simplified-main/Seeed Studio XIAO Series Library")(options "")(descr ""))
+  (lib (name "PanelizationPretty")(type "KiCad")(uri "${KIPRJMOD}/Panelization.pretty-master")(options "")(descr ""))
 )

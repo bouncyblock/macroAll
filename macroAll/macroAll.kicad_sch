@@ -2,9 +2,93 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid 5c0825d9-c716-4482-b15b-296a0b2326a0)
+	(uuid "5c0825d9-c716-4482-b15b-296a0b2326a0")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 59.69 60.96)
+		(size 95.25 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5d2562fb-6b69-4e0d-8b49-fa0180a9722a")
+		(property "Sheetname" "Left"
+			(at 59.69 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "side.kicad_sch"
+			(at 59.69 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "macroAll"
+				(path "/5c0825d9-c716-4482-b15b-296a0b2326a0"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 170.18 60.96)
+		(size 90.17 60.96)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "94e840e0-5033-48c5-bd97-5fe36f56d7b1")
+		(property "Sheetname" "Right"
+			(at 170.18 60.2484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "side.kicad_sch"
+			(at 170.18 122.5046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "macroAll"
+				(path "/5c0825d9-c716-4482-b15b-296a0b2326a0"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
