@@ -36,7 +36,7 @@ Now I'm just waiting on a reply from a help thread I asked in Slack about Footpr
 
 Ultimately, this section of the project ended up taking a LOT longer than I originally anticipated, 2 hours and 15m for circuitry, but things should speed up when it gets to 3D model design because I have experience with that.  
 
-## 11/4/2025 - Changed circuitboard used  
+## 11/4/2025 6 PM - Changed circuitboard used  
 
 After doing a little bit of research and deciding my keyboard layout, I settled on a 100-key layout (96%).
 The board I was using didn't have enough GPIO pins to support a 100 key matrix (even with fiddling with function key layouts, as seen here)
@@ -45,5 +45,24 @@ Now I'm using the Plus version of the previous board, the Seeed Studio XIAO nRF5
 
 Still have to update schematic for layouts, but the board is now imported on my project after some messy project management.
 ![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODQxOCwicHVyIjoiYmxvYl9pZCJ9fQ==--30b65f7726e21ac8439150449ff3ca2c0ddd1869/image.png)
+  
+
+## 11/4/2025 10 PM - Fixed footprint attached to new microcontroller  
+
+I was trying to add the Seeed Studio XIAO nRF52840 Plus footprint to my diagram so I could start the PCB, but couldn't find it in the footprint assignment library. This simple problem started the most annoying chase across the internet I've had to do in a hot minute.
+
+According to a couple of Reddit threads, the footprint library doesn't exist. After checking the actual files for OPL, it also wasn't present. 
+
+The files also weren't present on their website, at least not labelled properly (we'll talk about this later). There are no other documented instances of these files, even when digging through other people's GitHub repos, furthering this search even farther.
+
+It got to the point where I took the sample sheet with all the boards and was copy-pasting the raw circuit board from there to my actual project, only for that to also through an error (and not have the connection hints)
+
+Because of all of this nonsense, I decided to switch to the Seeed Studio XIAO nRF52840 SENSE Plus because it actually had the files I needed. HOWEVER, after downloading the files, I discovered those were the files for the Seeed Studio XIAO nRF52840 Plus, NOT THE SENSE version. (I have NO CLUE where the sense pro files are) but this did fix the problem, and after adding those files to my local copy of OPL I was back on my way. I still don't know why I needed to use the modified OPL library, but it's too late for that now, I need my extra GPIO.
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODQ5MywicHVyIjoiYmxvYl9pZCJ9fQ==--217905a5110ee2d3b89d0c3c0a8d6c05ab591d50/image.png)
+the goddamn microcontroller in question:
+
+Now I actually have to ROUTE everything, but that's another journey.
+
   
 
