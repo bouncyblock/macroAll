@@ -36,3 +36,14 @@ Now I'm just waiting on a reply from a help thread I asked in Slack about Footpr
 
 Ultimately, this section of the project ended up taking a LOT longer than I originally anticipated, 2 hours and 15m for circuitry, but things should speed up when it gets to 3D model design because I have experience with that.  
 
+## 11/4/2025 - Changed circuitboard used  
+
+After doing a little bit of research and deciding my keyboard layout, I settled on a 100-key layout (96%).
+The board I was using didn't have enough GPIO pins to support a 100 key matrix (even with fiddling with function key layouts, as seen here)
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODQxNywicHVyIjoiYmxvYl9pZCJ9fQ==--6a2389e290a28a45ae649a1e7c83bcb40e42a863/image.png)
+Now I'm using the Plus version of the previous board, the Seeed Studio XIAO nRF52840 Plus which only costs $5 more and should have more than enough (200 key keyboard?) Instead, I plan on having dials and sliders for controlling the audio input and output for my headset and each application on my PC, as well as still being able to fit in hidden macro pads out of the sides?
+
+Still have to update schematic for layouts, but the board is now imported on my project after some messy project management.
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6ODQxOCwicHVyIjoiYmxvYl9pZCJ9fQ==--30b65f7726e21ac8439150449ff3ca2c0ddd1869/image.png)
+  
+
