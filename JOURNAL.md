@@ -66,3 +66,16 @@ Now I actually have to ROUTE everything, but that's another journey.
 
   
 
+## 11/9/2025 - Added left components  
+
+I added all the components for the left side of the keyboard, led placement, and changed my idea for edgecuts. (now there's a hole in my keyboard!)
+
+Due to me being a dumbass, the leds and keys are NOT spaced properly but it should still mesh well with my typing style (no idea about the macropad location though)
+
+current progress:
+
+![image](https://blueprint.hackclub.com/user-attachments/blobs/proxy/eyJfcmFpbHMiOnsiZGF0YSI6OTc3NywicHVyIjoiYmxvYl9pZCJ9fQ==--6cebfdef99a8a92941ac0bfdd204846fd42f109b/image.png)
+
+That reminds me, once I'm done tracing both sides I'll need to figure out what I want for art because I like being able to see my circuitry so I'm not making a case for the top (yes for the bottom though)
+  
+
